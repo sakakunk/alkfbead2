@@ -28,5 +28,5 @@ A függősségek listája:
 
 ##Végpontok
 A végpontok listája:
-- / : főoldal
-- 
+ - '/' : főoldal
+ -- '/footballmatches/list' : az összes focimeccs kilistázása
