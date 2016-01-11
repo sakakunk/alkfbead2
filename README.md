@@ -1,2 +1,2 @@
-# alkfbead2
-Alkalmazások fejlesztése 2. beadandó
+# Alkalmazások fejlesztése Ember.js beadandó
+
