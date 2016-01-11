@@ -32,3 +32,9 @@ A végpontok listája:
  - '/' : főoldal
  - '/footballmatches/list' : az összes focimeccs kilistázása
  - '/footballmatches/new' : új mérkőzés felvétele
+ - '/footballmatches/:footballmatch_id' : egy kiválasztott mérkőzés megtekintése
+ - '/footballmatches/edit/:footballmatch_id' : egy kiválasztott mérkőzés szerkesztése
+ - '/footballmatches/:footballmatch_id/newevent' : egy kiválasztott mérkőzéshez egy új esemény felvitele
+ - '/footballmatches/listevents' : mérkőzéshez tartozó események listázása
+ - '/footballmatches/editevent/:event_id' : egy esemény szerkesztése
+
