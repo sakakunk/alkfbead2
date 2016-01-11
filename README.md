@@ -1,7 +1,7 @@
 # Alkalmazások fejlesztése Ember.js beadandó
 
 - [Leírás] (https://github.com/sakakunk/alkfbead2/#leírás)
-- [Megjelenítésterv](https://github.com/sakakunk/alkfbead2/#megjelenítésterv)
+- [Megjelenítésiterv](https://github.com/sakakunk/alkfbead2/#megjelenítésiterv)
 - [Technológiák] (https://github.com/sakakunk/alkfbead2/#technológiák)
 - [Modellek](https://github.com/sakakunk/alkfbead2/#modellek)
 - [Végpontok](https://github.com/sakakunk/alkfbead2/#végpontok)
