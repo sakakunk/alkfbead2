@@ -24,4 +24,4 @@ A függősségek listája:
 *bootstrap
 
 ##Modellek
-![Adatbázis modell]https://github.com/sakakunk/alkfbead2/blob/master/gyak9/img/alkfejl2.png
+![Adatbázis modell](https://github.com/sakakunk/alkfbead2/blob/master/gyak9/img/alkfejl2.png)
