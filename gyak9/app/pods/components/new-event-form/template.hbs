@@ -1,0 +1,37 @@
+
+<form class="form-horizontal" method="post" data-toggle="validator">
+    <fieldset>
+        <div class="form-group {{if errors.playername "has-error"}}">
+            <label for="helyszin" class="col-lg-2 control-label">Játékos neve:</label>
+            <div class="col-lg-10">
+                <input required class="form-control" id="playername" name="playername"  type="text" value="{{event.playername}}">
+                <div class="help-block">{{errors.playername}}</div>
+            </div>
+        </div>
+        
+        <div class="form-group {{if errors.eventtype "has-error"}}">
+            <label for="helyszin" class="col-lg-2 control-label">Esemény neve:</label>
+            <div class="col-lg-10">
+                <input required class="form-control" id="eventtype" name="eventtype" placeholder="pl. sárga lap, gól, stb" type="text" value="{{event.eventtype}}">
+                <div class="help-block">{{errors.eventtype}}</div>
+            </div>
+        </div>
+        
+        <div class="form-group {{if errors.time "has-error"}}">
+            <label for="helyszin" class="col-lg-2 control-label">Idő:</label>
+            <div class="col-lg-10">
+                <input required class="form-control" id="time" name="time" placeholder="Hányadik percben történt az esemény" type="text" value="{{event.time}}">
+                <div class="help-block">{{errors.time}}</div>
+            </div>
+        </div>
+        
+        
+        
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                <button type="reset" class="btn btn-success">Visszaállít</button>
+                <button {{action "submit" error.id}} class="submit" class="btn btn-success">Beküld</button>
+            </div>
+        </div>
+    </fieldset>
+</form>

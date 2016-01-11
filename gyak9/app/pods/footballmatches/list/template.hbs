@@ -1,0 +1,23 @@
+{{#each messages}}
+<div class="alert alert-dismissible alert-success">
+    <button type="button" class="close" data-dismiss="alert">×</button>
+    {{this}}
+</div>
+{{/each}}
+
+<div class="page-header">
+    <h1>Aktuális mérkőzések:</h1>
+</div>
+
+{{log model}}
+
+{{footballmatches-list footballmatches=model }}
+
+<p>{{link-to "Új meccs felvitele" "footballmatches.new" class="btn btn-success" id="newErrorButton"}}</p>
+{{!--<p><a href="/errors/new" class="btn btn-default" id="newErrorButton">Új hiba felvitele</a></p> --}}
+
+{{!--
+{{#modal-dialog title="My modal #1"}}
+  This is the content of my modal #1
+{{/modal-dialog}}
+--}}

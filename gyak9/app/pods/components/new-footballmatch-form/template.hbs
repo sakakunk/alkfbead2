@@ -1,0 +1,35 @@
+<form class="form-horizontal" method="post" data-toggle="validator">
+    <fieldset>
+        <div class="form-group {{if errors.home "has-error"}}">
+            <label for="helyszin" class="col-lg-2 control-label">Hazai csapat neve:</label>
+            <div class="col-lg-10">
+                <input required class="form-control" id="home" name="home"  type="text" value="{{footballmatch.home}}">
+                <div class="help-block">{{errors.home}}</div>
+            </div>
+        </div>
+        
+        <div class="form-group {{if errors.away "has-error"}}">
+            <label for="helyszin" class="col-lg-2 control-label">Vendég csapat neve:</label>
+            <div class="col-lg-10">
+                <input required class="form-control" id="away" name="away"  type="text" value="{{footballmatch.away}}">
+                <div class="help-block">{{errors.away}}</div>
+            </div>
+        </div>
+        
+        <div class="form-group {{if errors.result "has-error"}}">
+            <label for="helyszin" class="col-lg-2 control-label">Eredmény:</label>
+            <div class="col-lg-10">
+                <input required class="form-control" id="result" name="result"  type="text" value="{{footballmatch.result}}">
+                <div class="help-block">{{errors.result}}</div>
+            </div>
+        </div>
+       
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                  {{link-to "Vissza" "footballmatches.list"  id="homeButton" class="btn btn-success"}}
+                <button type="reset" class="btn btn-success">Visszaállít</button>
+                <button {{action "submit1"}} class="submit" class="btn btn-success">Beküld</button>
+            </div>
+        </div>
+    </fieldset>
+</form>  
