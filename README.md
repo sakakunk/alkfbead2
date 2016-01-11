@@ -17,17 +17,16 @@ A feladat megoldása során Ember.js javascriptet használtam. A megjelenítés�
 témáját használom, valamint handlebars fájlokkal teszem dinamikussá a html oldalakat. Az adatbázisért egy express-t használó külön alkalmazás felel, melyben fortune DB-t használok.
 A függősségek listája:
 
- -ember.js
- -jquery
- -bower
- -bootswatch
- -bootstrap
+-ember.js
+-jquery
+-bower
+-bootswatch
+-bootstrap
 
 ##Modellek
 ![Adatbázis modell](https://github.com/sakakunk/alkfbead2/blob/master/gyak9/img/alkfejl2.png)
 
 ##Végpontok
 A végpontok listája:
-
--főoldal (application)
--
+- / : főoldal
+- 
