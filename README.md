@@ -3,6 +3,7 @@
 - [Leírás] (https://github.com/sakakunk/alkfbead2/#leírás)
 - [Technológiák] (https://github.com/sakakunk/alkfbead2/#technológiák)
 - [Modellek](https://github.com/sakakunk/alkfbead2/#modellek)
+- [Végpontok(https://github.com/sakakunk/alkfbead2/#végpontok)
 
 ##Leírás
 A project az ELTE Informatikai kar Alkalmazások fejlesztése tárgy beadandója során készült.
