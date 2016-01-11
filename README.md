@@ -2,6 +2,7 @@
 
 - [Leírás] (https://github.com/sakakunk/alkfbead2/#leírás)
 - [Technológiák] (https://github.com/sakakunk/alkfbead2/#technológiák)
+- [Modellek](https://github.com/sakakunk/alkfbead2/#modellek)
 
 ##Leírás
 A project az ELTE Informatikai kar Alkalmazások fejlesztése tárgy beadandója során készült.
@@ -15,8 +16,12 @@ tartozik.
 A feladat megoldása során Ember.js javascriptet használtam. A megjelenítésért a bootswatch felelős, melynek a "United" nevű 
 témáját használom, valamint handlebars fájlokkal teszem dinamikussá a html oldalakat. Az adatbázisért egy express-t használó külön alkalmazás felel, melyben fortune DB-t használok.
 A függősségek listája:
+
 *ember.js
 *jquery
 *bower
 *bootswatch
 *bootstrap
+
+##Modellek
+![Adatbázis modell]
