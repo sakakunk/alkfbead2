@@ -14,6 +14,7 @@ A project rövid leírása: egy labdarúgó mérkőzés eredményeit, illetve az
 gól, öngól, sárgalap, piroslap, becserélés és lecserélés, tároljuk továbbá az esemény időpontját, illetve hogy melyik csapathoz 
 tartozik. 
 
+##Terv
 ![Terv](https://github.com/sakakunk/alkfbead2/blob/master/gyak9/img/alkfejl2-2.png)
 
 A képen egy listázó oldal megjelenítási terve látható. A felső rész a navigációért felelős, középen egy táblázatban listázzuk a kívánt
