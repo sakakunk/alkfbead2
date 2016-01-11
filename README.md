@@ -1,7 +1,7 @@
 # Alkalmazások fejlesztése Ember.js beadandó
 
 - [Leírás] (https://github.com/sakakunk/alkfbead2/#leírás)
-- [Megjelenítés-terv](https://github.com/sakakunk/alkfbead2/#megjelenítés-terv)
+- [Megjelenítésterv](https://github.com/sakakunk/alkfbead2/#megjelenítésterv)
 - [Technológiák] (https://github.com/sakakunk/alkfbead2/#technológiák)
 - [Modellek](https://github.com/sakakunk/alkfbead2/#modellek)
 - [Végpontok](https://github.com/sakakunk/alkfbead2/#végpontok)
@@ -14,7 +14,7 @@ A project rövid leírása: egy labdarúgó mérkőzés eredményeit, illetve az
 öngól, sárgalap, piroslap, becserélés és lecserélés, tároljuk továbbá az esemény időpontját, illetve hogy melyik csapathoz 
 tartozik. 
 
-![Megjelenítés-terv](https://github.com/sakakunk/alkfbead2/blob/master/gyak9/img/alkfejl2-2.png)
+![Megjelenítésiterv](https://github.com/sakakunk/alkfbead2/blob/master/gyak9/img/alkfejl2-2.png)
 
 A képen egy listázó oldal megjelenítási terve látható. A felső rész a navigációért felelős, középen egy táblázatban listázzuk a kívánt
 elemeket, megfelelő funkciókkal ellátva. Lent az egyéb funkciógombok találhatók.
