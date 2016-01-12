@@ -6,6 +6,7 @@
 - [Modellek](https://github.com/sakakunk/alkfbead2/#modellek)
 - [Folyamatábra](https://github.com/sakakunk/alkfbead2/#folyamatábra)
 - [Végpontok](https://github.com/sakakunk/alkfbead2/#végpontok)
+- [Fejlesztés és felhasználás](https://github.com/sakakunk/alkfbead2/#fejlesztés-és-felhasználás)
 
 ##Leírás
 A project az ELTE Informatikai kar Alkalmazások fejlesztése tárgy beadandója során készült.
@@ -60,5 +61,5 @@ A végpontok listája:
  - '/footballmatches/listevents' : mérkőzéshez tartozó események listázása
  - '/footballmatches/editevent/:event_id' : egy esemény szerkesztése
 
-
-
+##Fejlesztés és felhasználás
+A beadandót a cloud9 webes IDE-ben készítettem el, Windowson, Google Chrome böngészőből. A project folytatható, szerkeszthető.
