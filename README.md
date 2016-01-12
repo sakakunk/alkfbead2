@@ -42,6 +42,12 @@ A matchevent típus tárol egy adott mérkőzéshez tartozó eseményt. Az esem�
 típusát, pl Sárgalap, Gól, stb (eventtype), és azt, hogy hányadik percben történt az esemény(time).
 
 A két típus között egy-sok kapcsolat van: egy mérkőzéshez tetszőleges számó esemény rendelhető.
+
+##Folyamatábra
+![folyamatábra](https://github.com/sakakunk/alkfbead2/blob/master/gyak9/img/alkfejl2-3.png)
+
+A fenti brán látható, hogy a (gazdag) felhasználók hogyan érik el a honlap egyes funkcióit, végpontjait.
+
 ##Végpontok
 A végpontok listája:
  - '/' : főoldal
