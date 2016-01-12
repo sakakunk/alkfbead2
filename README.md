@@ -4,6 +4,7 @@
 - [Terv](https://github.com/sakakunk/alkfbead2/#terv)
 - [Technológiák] (https://github.com/sakakunk/alkfbead2/#technológiák)
 - [Modellek](https://github.com/sakakunk/alkfbead2/#modellek)
+- [Folyamatábra](https://github.com/sakakunk/alkfbead2/#folyamatábra)
 - [Végpontok](https://github.com/sakakunk/alkfbead2/#végpontok)
 
 ##Leírás
