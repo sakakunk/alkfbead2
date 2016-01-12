@@ -6,6 +6,7 @@
 - [Modellek](https://github.com/sakakunk/alkfbead2/#modellek)
 - [Folyamatábra](https://github.com/sakakunk/alkfbead2/#folyamatábra)
 - [Végpontok](https://github.com/sakakunk/alkfbead2/#végpontok)
+- [Funkciók](https://github.com/sakakunk/alkfbead2/#funkciók)
 - [Fejlesztés és felhasználás](https://github.com/sakakunk/alkfbead2/#fejlesztés-és-felhasználás)
 
 ##Leírás
@@ -61,6 +62,17 @@ A végpontok listája:
  - '/footballmatches/:footballmatch_id/newevent' : egy kiválasztott mérkőzéshez egy új esemény felvitele
  - '/footballmatches/listevents' : mérkőzéshez tartozó események listázása
  - '/footballmatches/editevent/:event_id' : egy esemény szerkesztése
+
+##Funkciók
+ - Mérkőzések csapatainak, és a mérkőzések eredményeinek adatbázisban történő tárolása
+ - Mérkőzésekhez kapcsolódó események adatbázisban való tárolása: egy mérkőzéshez sok esemény
+ - Új mérkőzés bevitele űrlap segítségével, mely a bevitt adatok helyességét is ellenőrzi
+ - Egy adott mérkőzésekhez tartozó új esemény bevitele űrlap segítségével, szintén ellenőrzött adatokkal
+ - Mérkőzések listázása
+ - Események listázása
+ - Esemény részletes megtekintése
+ - Mérkőzés módosítása, törlése
+ - Esemény módosítása, törlése
 
 ##Fejlesztés és felhasználás
 A beadandót a cloud9 webes IDE-ben készítettem el, Windowson, Google Chrome böngészőből. A project folytatható, szerkeszthető.
