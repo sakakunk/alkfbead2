@@ -6,14 +6,15 @@ export default Ember.Component.extend({
     
     
     actions: {
-        submit(errorid){  // submit gomb megnyomására ez a függvény fut le
+        submit(eventid){  // submit gomb megnyomására ez a függvény fut le
             //console.log('faintos szoveg')  // submit actionra kiírja ezt
             
             if(!this.validate()){
                 return;
             }
+           
             this.get('onSave')({    // kívülről kapott függvény, visszadja a kitöltött mezők adatait
-                footballmatch: errorid,
+                footballmatch: eventid,
                 playername: this.$('#playername').val(),
                 eventtype: this.$('#eventtype').val(),
                 time: this.$('#time').val(),
@@ -27,9 +28,9 @@ export default Ember.Component.extend({
         var eventtype = this.$('#eventtype').val();
         var time = this.$('#time').val();
         
-        this.set('errors.playername', playername === '' ? 'Helyszín kötelező' : '');
-        this.set('errors.eventtype', eventtype === '' ? 'Leírás kötelező' : '');
-        this.set('errors.time', time === '' ? 'Leírás kötelező' : '');
+        this.set('errors.playername', playername === '' ? 'Kötelező' : '');
+        this.set('errors.eventtype', eventtype === '' ? 'Kötelező' : '');
+        this.set('errors.time', time === '' ? 'Kötelező' : '');
         
         return this.get('errors.playername') === '' && this.get('errors.eventtype') === '' && this.get('errors.time') === '';
     }
