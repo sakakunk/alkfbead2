@@ -29,6 +29,7 @@
         
         <div class="form-group">
             <div class="col-lg-10 col-lg-offset-2">
+                {{link-to "Vissza" "footballmatches.listevents"  id="backbButton" class="btn btn-success"}}
                 <button type="reset" class="btn btn-success">Visszaállít</button>
                 <button {{action "submit" error.id}} class="submit" class="btn btn-success">Beküld</button>
             </div>
