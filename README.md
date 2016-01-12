@@ -78,3 +78,6 @@ A végpontok listája:
 A beadandót a cloud9 webes IDE-ben készítettem el, Windowson, Google Chrome böngészőből. A project folytatható, szerkeszthető.
 
 
+##Fejlesztési lehetőség
+ - Csak regisztráció és belépés után elérhető funkciók
+ - Listázza csak egy mérkőzéshez tartozó eseményeket
