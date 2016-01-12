@@ -19,8 +19,9 @@ tartozik.
 ##Terv
 ![Terv](https://github.com/sakakunk/alkfbead2/blob/master/gyak9/img/alkfejl2-2.png)
 
-A képen egy listázó oldal megjelenítási terve látható. A felső rész a navigációért felelős, középen egy táblázatban listázzuk a kívánt
-elemeket, megfelelő funkciókkal ellátva. Lent az egyéb funkciógombok találhatók.
+A képen egy listázó oldal megjelenítási terve látható. A felső rész a navigációért felelős: itt érjük el a főoldalt, és a listákat.
+Középen egy táblázatban listázzuk a kívánt elemeket, megfelelő funkciókkal ellátva. Lent az egyéb funkciógombok találhatók, például új
+adat bevitele.
 
 ##Technológiák
 A feladat megoldása során Ember.js javascriptet használtam. A megjelenítésért a bootswatch felelős, melynek a "United" nevű 
@@ -63,3 +64,5 @@ A végpontok listája:
 
 ##Fejlesztés és felhasználás
 A beadandót a cloud9 webes IDE-ben készítettem el, Windowson, Google Chrome böngészőből. A project folytatható, szerkeszthető.
+
+
